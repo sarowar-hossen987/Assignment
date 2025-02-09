@@ -25,12 +25,15 @@ a{
 /* hero section start */
 
 .hero-section .row{
-    padding: 200px 0;
+    padding: 100px 0;
+    align-items: center;
+    
 }
 .hero-text {
     color: #eeeeee;
     font-family: poppins;
 }
+
 
 .hero-text h1 span{
     color: #00ADB5;
@@ -42,6 +45,7 @@ a{
     border-radius: 30px;
     border: none;
     padding: 5px 30px;
+    
 }
 
 .btn-2nd{
