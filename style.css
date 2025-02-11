@@ -190,3 +190,41 @@ label:before{
 }
 
 /* got project section start */
+
+.got-project-section .container .row{
+    padding: 150px 50px;
+}   
+
+.got-project-section h1{
+    color: #eeeeee;
+}
+
+.got-project-section h1 span{
+    color: #00ADB5;
+}
+
+.got-project-section img{
+  margin-left: 230px;
+}
+
+.got-project-section input{
+    background-color: #393E46;
+    border: none;
+}
+
+::-webkit-input-placeholder{
+    color: #eeeeee!important;
+    opacity: 0.5!important;
+}
+
+.got-project-section textarea{
+    background-color: #393E46;
+    border: none;
+}
+
+.got-project-section button{
+    border: none;
+    border-radius: 20px;
+    background-color: #00ADB5;
+    padding: 5px 20px;
+}
