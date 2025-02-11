@@ -2,6 +2,7 @@
 
 body{
     background-color: #222831;
+    font-family: poppins;
 }
 
 li{
@@ -53,6 +54,15 @@ a{
     transform: scale(1.1);
 }
 
+@media (max-width: 768px){
+    .hero-btn button{
+        display: block;
+        justify-content: start;
+        padding: 5px 10px;
+        
+    }
+}
+
 .btn-2nd{
     background-color: #393E46;
     color: #eeeeee;
@@ -92,6 +102,7 @@ a{
 .about-me-section p{
     color: #eeeeee;
     font-family: poppins;
+    opacity: 0.7;
 }
 
 .about-me-img{
@@ -151,9 +162,10 @@ label:before{
     background-repeat: repeat;
 }
 
-.my-work-section .container .row{
+.my-work-section .container .row-1{
     padding: 150px;
 }
+
 
 .my-work-section h1{
     color: #eeeeee;
@@ -227,4 +239,24 @@ label:before{
     border-radius: 20px;
     background-color: #00ADB5;
     padding: 5px 20px;
+}
+
+/* footer section start  */
+
+.footer-section .container .row{
+    padding: 100px 0;
+}
+
+.footer-section ul li{
+    color: #eeeeee;
+}
+
+.footer-section .social-icon i{
+    padding: 15px;
+    background-color: #393e4655;
+    border-radius: 50%;
+}
+
+.footer-section .terms{
+    padding-top: 200px!important;
 }
