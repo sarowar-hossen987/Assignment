@@ -14,6 +14,17 @@ a{
     color: #eeeeee;
 }
 
+.container{
+    /* bottom: 1px solid #eeeeee; */
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px){
+    h1{
+        text-align: center;
+    }
+}
+
 /* header start  */
 .navbar .menu ul{
     display: flex;
@@ -30,6 +41,27 @@ a{
     align-items: center;
     padding: 100px;
 }
+
+@media screen and (max-width: 768px){
+    .hero-section .row{
+        display: flex;
+        justify-content: center;
+        padding: 0 50px;
+    }
+
+    .hero-section .container{
+        padding: 20px 0 0;
+    }
+
+    .hero-btn{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+}
+
 .hero-text {
     color: #eeeeee;
     font-family: poppins;
@@ -54,14 +86,6 @@ a{
     transform: scale(1.1);
 }
 
-@media (max-width: 768px){
-    .hero-btn button{
-        display: block;
-        justify-content: start;
-        padding: 5px 10px;
-        
-    }
-}
 
 .btn-2nd{
     background-color: #393E46;
@@ -97,6 +121,16 @@ a{
 
 .about-me-section .container .row{
     padding: 0 100px;
+}
+
+@media screen and (max-width: 768px){
+    .about-me-section .container .row{
+        padding: 0 50px;
+    }
+
+    .about-me-section .container{
+        padding: 100px 0 100px;
+    }
 }
 
 .about-me-section h1{
@@ -177,6 +211,19 @@ label:before{
     padding: 150px;
 }
 
+@media screen and (max-width: 768px){
+    .my-work-section .container .row-1{
+        padding: 50px;
+    }
+    .my-work-section .container .row{
+        padding: 80px;
+    }
+    .my-work-section .container .row img{
+        margin: 20px 0;
+    }
+
+}
+
 
 .my-work-section h1{
     color: #eeeeee;
@@ -190,6 +237,13 @@ label:before{
     display: flex;
     gap: 20px;
     padding-top: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .work-filter{
+        text-align: center;
+        justify-content: center;
+    }
 }
 
 .my-work-section p{
@@ -228,6 +282,13 @@ label:before{
 
 .got-project-section img{
   margin-left: 230px;
+}
+
+@media screen and (max-width: 768px){
+    .got-project-section img{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .got-project-section input{
