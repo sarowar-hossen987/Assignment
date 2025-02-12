@@ -14,10 +14,6 @@ a{
     color: #eeeeee;
 }
 
-.container{
-    /* bottom: 1px solid #eeeeee; */
-    text-decoration: underline;
-}
 
 @media screen and (max-width: 768px){
     h1{
@@ -286,8 +282,7 @@ label:before{
 
 @media screen and (max-width: 768px){
     .got-project-section img{
-        display: flex;
-        justify-content: center;
+        margin-left: 0;
     }
 }
 
@@ -331,4 +326,14 @@ label:before{
 
 .footer-section .terms{
     padding-top: 200px!important;
+}
+
+@media screen and (max-width: 768px){
+    .footer-section .container .row{
+        padding: 50px 0;
+    }
+    .footer-section .terms{
+        padding-top: 50px!important;
+    }
+    
 }
