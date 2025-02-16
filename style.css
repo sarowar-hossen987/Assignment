@@ -153,30 +153,7 @@ a{
     padding: 0 100px;
 }
 
-@media screen and (max-width: 768px){
-    .about-me-section .container .row{
-        padding: 0 50px;
-    }
 
-    .about-me-section .container{
-        padding: 100px 0 100px;
-    }
-
-    .about-me-img{
-        background-image: url(Image20250210001528.png);
-        background-repeat: cover!important;
-        display: flex;
-        justify-content: center;
-        align-items: center;    
-        align-content: center;
-        padding-bottom: 80px;
-    }
-
-    .about-me-text{
-        padding: 0px!important;
-    }
-
-}
 
 .about-me-section h1{
     padding: 100px 0 20px 0;
@@ -201,7 +178,6 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;    
-    align-content: center;
     padding-bottom: 80px;
 }
 
@@ -354,6 +330,10 @@ label:before{
     .got-project-section img{
         margin-left: 0;
     }
+
+    .got-project-section .container .row{
+        padding: 80px 20px 10px;
+    } 
 }
 
 .got-project-section input{
@@ -414,4 +394,32 @@ label:before{
         font-size: 10px;
     }
     
+}
+
+@media screen and (max-width: 768px){
+    .about-me-section .container .row{
+        padding: 0px;
+    }
+
+    .about-me-text{
+        padding: 0 50px;
+    }
+    .about-me-section .container{
+        padding: 100px 0 100px;
+    }
+
+    .about-me-img{
+        background-image: url(Image20250210001528.png);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;   
+        padding-bottom: 50px; 
+        /* background-size: cover; */
+        
+    }
+
+    .about-me-section img{
+        width: 100%
+    };
+
 }
