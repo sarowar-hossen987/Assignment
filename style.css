@@ -11,7 +11,7 @@ li{
 
 a{
     text-decoration: none;
-    color: #eeeeee;
+    color: #eeeeee!important;
 }
 
 
@@ -21,13 +21,12 @@ a{
     }
 }
 
-/* header start  */
-.navbar .menu ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 0 ;
+/* navbar start */
+.navbar-toggler {
+    background-color: #222831; /* Change to desired background color */
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2899, 99, 99, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 /* hero section start */
